@@ -1,0 +1,21 @@
+state = {
+	id = 635
+	name = "STATE_MOUNT_WILSON"
+	impassable = yes
+	manpower = 67
+	state_category = wasteland
+	resources = {
+	}
+
+	history = {
+		owner = TEC
+		add_core_of = TEC
+		buildings = {
+
+		}
+	}
+
+	provinces = {
+		6617
+	}
+}

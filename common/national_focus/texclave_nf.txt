@@ -1,0 +1,22 @@
+focus_tree = {
+	id = texclave_nf
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TEC
+		}
+	}
+	default = no
+	focus = {
+		id = losing_contact
+		icon = GFX_goal_BOS_generic
+		cost = 1
+		x = 17
+		y = 0
+		completion_reward = {
+			if = {
+							add_stability = 0.065
+			}
+		}
+	}

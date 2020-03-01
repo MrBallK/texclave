@@ -1,0 +1,95 @@
+﻿capital = 203
+oob = "NAV_2275"
+
+set_technology = {
+	elite_army = 1
+	standard_weaponry_tech = 1
+	melee_weaponry_tech_1 = 1
+	ballistic_weaponry_tech_1 = 1
+	tribal_civilization = 1
+	settled_civilization = 1
+	scientific_civilization = 1
+	nautics_tech_1 = 1
+	energy_weaponry_tech_1 = 1
+	energy_weaponry_tech_2 = 1
+	spec_ops_equipment_tech_1 = 1
+	spec_ops_equipment_tech_2 = 1
+	hardening_armour_tech = 1
+	simple_servo_tech = 1
+	stripped_pa_tech = 1
+	scav_pa_tech = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		nautics_tech_1 = 1
+		light_navy_hull_tech_1 = 1
+		waterproof_sealing_tech = 1
+		medium_navy_hull_tech_1 = 1
+		multi_deck_construction_tech = 1
+		heavy_navy_hull_tech_1 = 1
+		naval_module_tech = 1
+		naval_weapons_module_tech = 1
+		naval_support_module_tech = 1
+		naval_armour_tech_1 = 1
+		naval_communications_module_tech_1 = 1
+	}
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		nautics_tech_non_mtg_1 = 1
+		light_navy_hull_tech_non_mtg_1 = 1
+		waterproof_sealing_tech_non_mtg = 1
+		medium_navy_hull_tech_non_mtg_1 = 1
+		multi_deck_construction_tech_non_mtg = 1
+		heavy_navy_hull_tech_non_mtg_1 = 1
+	}
+}
+
+set_fuel_ratio = 0.75
+set_stability = 0.35
+set_war_support = 0.7
+set_convoys = 0
+set_research_slots = 5
+
+set_politics = {
+	ruling_party = elites
+	elections_allowed = no
+}
+
+set_popularities = {
+	people = 20
+	elites = 50
+	intellectuals = 0
+	ruler = 30
+}
+
+set_rule = { can_send_volunteers = no }
+
+add_ideas = {
+	officer_law_military_academy
+	funded_militia_conscription
+	training_law_military_academy
+	bunkerblues
+	paladins
+	outsider_law_none
+}
+
+create_country_leader = { 
+	name = "colonel John Smith"
+	desc = ""
+	picture = "Portrait_Enclave_Generic.dds"
+	traits = {
+		
+	}
+	expire = "3000.1.1"
+	ideology = militarist_oligarchy
+}
+
+

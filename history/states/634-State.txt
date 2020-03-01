@@ -1,0 +1,21 @@
+state = {
+	id = 634
+	name = "STATE_LOS_ALAMOS"
+	impassable = yes
+	manpower = 45
+	state_category = wasteland
+	resources = {
+	}
+
+	history = {
+		owner = TEC
+		add_core_of = TEC
+		buildings = {
+
+		}
+	}
+
+	provinces = {
+		6625
+	}
+}

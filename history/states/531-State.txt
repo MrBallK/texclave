@@ -1,0 +1,21 @@
+state={
+	id=531
+	name="STATE_PAGOSA_SPRINGS"
+	impassable = yes
+
+	history={
+		owner = TEC
+		add_core_of = TEC
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		6609 6612
+	}
+	manpower=334
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

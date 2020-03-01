@@ -1,0 +1,20 @@
+state = {
+	id = 636
+	name = "STATE_SILVERTON"
+	manpower = 7000
+	state_category = pastoral
+	resources = {
+	}
+
+	history = {
+		owner = TEC
+		add_core_of = TEC
+		buildings = {
+
+		}
+	}
+
+	provinces = {
+		6716 6717 6715 6713 6714 9084 9090 9095
+	}
+}
