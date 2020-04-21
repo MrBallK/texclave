@@ -1,0 +1,24 @@
+state = {
+	id = 638
+	name = "STATE_ALAMOSA"
+	manpower = 7000
+	state_category = pastoral
+	resources = {
+	}
+
+	history = {
+		owner = TXE
+		add_core_of = TXE
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			5584 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces = {
+		5584 5585 5586 9082 9086
+	}
+}
