@@ -16,17 +16,12 @@ focus_tree = {
 		y = 0
 
 		completion_reward = {
-			if = {
-				limit = { has_global_flag = debug_logs }
-				log = "[GetDateText]: [Root.GetName] WBH_our_founding entered"
-			}
-			country_event = { id = nf_genericbos.1 }
-			if = {
-				limit = { has_global_flag = debug_logs }
-				log = "[GetDateText]: [Root.GetName] WBH_our_founding exited"
-			}
-		}
+			
+			country_event = { id = nf_texclave.1 }
+			
+             }
 	}
+	
 	focus = {
 		id = Isolated_Underequipped_And_Demoralized
 		icon = GFX_goal_BOS_generic
@@ -38,15 +33,8 @@ focus_tree = {
 		y = 1
 
 		completion_reward = {
-			if = {
-				limit = { has_global_flag = debug_logs }
-				log = "[GetDateText]: [Root.GetName] WBH_our_interim entered"
-			}
-			country_event = { id = nf_genericbos.2 }
-			if = {
-				limit = { has_global_flag = debug_logs }
-				log = "[GetDateText]: [Root.GetName] WBH_our_interim exited"
-			}
+			
+			country_event = { id = nf_texclave.2 }
 		}
 	}
 	focus = {
@@ -60,15 +48,8 @@ focus_tree = {
 		y = 2
 
 		completion_reward = {
-			if = {
-				limit = { has_global_flag = debug_logs }
-				log = "[GetDateText]: [Root.GetName] WBH_our_future entered"
-			}
-			country_event = { id = nf_genericbos.3 }
-			if = {
-				limit = { has_global_flag = debug_logs }
-				log = "[GetDateText]: [Root.GetName] WBH_our_future exited"
+
+			country_event = { id = nf_texclave.3 }
 			}
 		}
-	}
 	

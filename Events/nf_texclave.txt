@@ -1,0 +1,96 @@
+﻿add_namespace = nf_texclave
+#Texclave Events#
+
+#Losing Contact
+country_event = {
+	id = nf_texclave.1
+	title = nf_texclave.1.t
+	desc = nf_texclave.1.d
+	picture = GFX_event_BOS_our_founding
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_texclave.1.a
+
+		add_ideas = generic_bos_scribes
+	}
+
+	option = {
+		name = nf_texclave.1.b
+
+		add_ideas = generic_bos_paladins
+	}
+}
+
+#Isolated, Underequipped, And Demoralized
+country_event = {
+	id = nf_texclave.2
+	title = nf_texclave.2.t
+	desc = nf_texclave.2.d
+	picture = GFX_event_BOS_our_interim
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_texclave.2.a
+
+		capital_scope = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = nf_texclave.2.b
+
+		capital_scope = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}	
+}
+
+#Yeet
+country_event = {
+	id = nf_texclave.3
+	title = nf_texclave.3.t
+	desc = nf_texclave.3.d
+	picture = GFX_event_BOS_our_interim
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_texclave.3.a
+
+		capital_scope = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = nf_texclave.3.b
+
+		capital_scope = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
