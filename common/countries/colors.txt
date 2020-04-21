@@ -109,6 +109,11 @@ ITZ = {
 	color_ui = rgb { 233 0 0 }
 }
 
+CRA = {
+	color = rgb { 100 40 270 }
+	color_ui = rgb { 100 40 270 }
+}
+
 CRZ = {
 	color = rgb { 193 40 0 }
 	color_ui = rgb { 193 40 0 }
@@ -175,8 +180,8 @@ FIE = {
 }
 
 FRI = {
-	color = rgb { 88 132 155 }
-	color_ui = rgb { 88 132 155 }
+  color = rgb { 12 254 175 }
+  color_ui = rgb { 12 254 175 }
 }
 
 GDH = {
@@ -407,10 +412,10 @@ TOB = {
 	color_ui = rgb { 70 103 49 }
 }
 
-THR = {
-	color = rgb { 68 28 30 }
-	color_ui = rgb { 68 28 30 }
-}
+# THR = {
+# 	color = rgb { 68 28 30 }
+# 	color_ui = rgb { 68 28 30 }
+# }
 TVR = {
 	color = rgb { 112 50 50 }
 	color_ui = rgb { 112 50 50 }
@@ -512,7 +517,10 @@ CES = {
 	color = rgb { 169 24 24 }
 	color_ui = rgb { 169 24 24 }
 }
-
+LAC = {
+	color = rgb { 169 24 24 }
+	color_ui = rgb { 169 24 24 }
+}
 VLT = {
 	color = rgb { 92 96 215 }
 	color_ui = rgb { 92 96 215 }
@@ -593,6 +601,15 @@ WHD = {
 UTO = {
   color = rgb { 255 140 1 }
   color_ui = rgb { 255 140 1 }
+}
+#April Fools
+KSR = {
+  color = rgb { 139 55 55 }
+  color_ui = rgb { 139 55 55 }
+}
+MLP = {
+	color = rgb { 158 242 117 }
+	color_ui = rgb { 158 242 117 }
 }
 TXE = {
 color = rgb { 0 30 120 }
