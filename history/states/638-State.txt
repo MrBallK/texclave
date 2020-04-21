@@ -7,8 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = TEC
-		add_core_of = TEC
+		owner = TXE
+		add_core_of = TXE
 		buildings = {
 			infrastructure = 1
 			dockyard = 1

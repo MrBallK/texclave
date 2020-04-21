@@ -594,7 +594,7 @@ UTO = {
   color = rgb { 255 140 1 }
   color_ui = rgb { 255 140 1 }
 }
-TEC = {
+TXE = {
 color = rgb { 0 30 120 }
 color_ui = rgb { 0 30 120 }
 }

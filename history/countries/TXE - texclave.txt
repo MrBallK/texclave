@@ -53,8 +53,8 @@ if = {
 }
 
 set_fuel_ratio = 0.75
-set_stability = 0.35
-set_war_support = 0.7
+set_stability = 0.50
+set_war_support = 0.75
 set_convoys = 0
 set_research_slots = 5
 
@@ -64,10 +64,10 @@ set_politics = {
 }
 
 set_popularities = {
-	people = 20
-	elites = 50
+	people = 30
+	elites = 70
 	intellectuals = 0
-	ruler = 30
+	ruler = 0
 }
 
 set_rule = { can_send_volunteers = no }
@@ -82,7 +82,7 @@ add_ideas = {
 }
 
 create_country_leader = { 
-	name = "colonel John Smith"
+	name = "Major Bradley Walker"
 	desc = ""
 	picture = "Portrait_Enclave_Generic.dds"
 	traits = {

@@ -3,8 +3,8 @@ state={
 	name="STATE_NEW_CORTEZ"
 
 	history={
-		owner = TEC
-		add_core_of = TEC
+		owner = TXE
+		add_core_of = TXE
 		victory_points = {
 			6578 10
 		}
