@@ -94,3 +94,111 @@ country_event = {
 		}
 	}
 }
+
+#Placeholder_Event_One
+country_event = {
+	id = nf_texclave.4
+	title = nf_texclave.4.t
+	desc = nf_texclave.4.d
+	picture = GFX_event_BOS_our_interim
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_texclave.4.a
+
+		capital_scope = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = nf_texclave.4.b
+
+		capital_scope = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+#Placeholder_Event_Two
+country_event = {
+	id = nf_texclave.5
+	title = nf_texclave.5.t
+	desc = nf_texclave.5.d
+	picture = GFX_event_BOS_our_interim
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_texclave.5.a
+
+		capital_scope = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = nf_texclave.5.b
+
+		capital_scope = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+#Placeholder_Event_Three
+country_event = {
+	id = nf_texclave.6
+	title = nf_texclave.6.t
+	desc = nf_texclave.6.d
+	picture = GFX_event_BOS_our_interim
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_texclave.6.a
+
+		capital_scope = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = nf_texclave.6.b
+
+		capital_scope = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
