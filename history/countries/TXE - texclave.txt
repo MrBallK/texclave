@@ -53,10 +53,10 @@ if = {
 }
 
 set_fuel_ratio = 0.75
-set_stability = 0.50
-set_war_support = 0.75
+set_stability = 0.3
+set_war_support = 0.35
 set_convoys = 0
-set_research_slots = 5
+set_research_slots = 3
 
 set_politics = {
 	ruling_party = elites
@@ -64,8 +64,8 @@ set_politics = {
 }
 
 set_popularities = {
-	people = 30
-	elites = 70
+	people = 40
+	elites = 60
 	intellectuals = 0
 	ruler = 0
 }
