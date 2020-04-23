@@ -8,48 +8,88 @@ focus_tree = {
 		}
 	}
 	default = no
+	
 	focus = {
 		id = Losing_Contact
 		icon = GFX_goal_BOS_generic
-		cost = 1.00
 		x = 15
 		y = 0
-
+	
+	    cost = 1.00
+		
 		completion_reward = {
-			
 			country_event = { id = nf_texclave.1 }
-			
-             }
+		}
 	}
 	
 	focus = {
 		id = Isolated_Underequipped_And_Demoralized
 		icon = GFX_goal_BOS_generic
-		cost = 1.00
-		prerequisite = {
-			focus = Losing_Contact
-		}
 		x = 15
 		y = 1
-
+		
+		cost = 1.00
+		prerequisite = { focus = Losing_Contact }
+        
 		completion_reward = {
-			
-			country_event = { id = nf_texclave.2 }
+		    country_event = { id = nf_texclave.2 }
 		}
 	}
+	
 	focus = {
 		id = Yeet
 		icon = GFX_goal_BOS_generic
-		cost = 1.00
-		prerequisite = {
-			focus = Isolated_Underequipped_And_Demoralized
-		}
-		x = 15
+		 x = 15
 		y = 2
+		
+		cost = 1.00
+		prerequisite = { focus = Isolated_Underequipped_And_Demoralized }
 
 		completion_reward = {
-
-			country_event = { id = nf_texclave.3 }
-			}
+           country_event = { id = nf_texclave.3 }
 		}
+	}
 	
+	focus = {
+		id = Placeholder_One
+		icon = GFX_goal_BOS_generic
+		x = 15
+		y = 3
+		
+		cost = 1.00
+		prerequisite = { focus = Yeet }
+
+		completion_reward = {
+            country_event = { id = nf_texclave.4 }
+		}
+	}
+		
+	focus = {
+		id = Placeholder_Two
+		icon = GFX_goal_BOS_generic
+		x = 14
+		y = 4
+		
+		cost = 1.00
+		mutually_exclusive = { focus = Placeholder_Three }
+		prerequisite = { focus = Placeholder_One }
+
+        completion_reward = {
+            country_event = { id = nf_texclave.5 }
+		}
+	}
+		
+		focus = {
+		id = Placeholder_Three
+		icon = GFX_goal_BOS_generic
+		x = 16
+		y = 4
+		
+		cost = 1.00
+		mutually_exclusive = { focus = Placeholder_Two }
+		prerequisite = { focus = Placeholder_One }
+
+        completion_reward = {
+            country_event = { id = nf_texclave.6 }
+		}
+	}
