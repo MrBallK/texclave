@@ -6,5 +6,5 @@ name="texclave"
 dependencies={
 	"Old World Blues"
 }
-supported_version="1.9"
+supported_version="1.10.2"
 path="mod/texclave"
